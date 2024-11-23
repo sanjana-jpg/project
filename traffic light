@@ -1,0 +1,11 @@
+
+import time
+def trafficlight():
+    while True:
+        print ("red light - stop")
+        time.sleep(5)
+        print("yellow light - slow down")
+        time.sleep(3)
+        print("green light - go")
+        time.sleep(2)
+trafficlight()
